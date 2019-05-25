@@ -1,0 +1,42 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+defaultContentLanguage = "en-us"
+title = "Roberto Carlos"
+theme = "keepit"
+
+enableEmoji = true
+enableRobotsTXT = true
+
+[blackfriday]
+  hrefTargetBlank =  true
+  nofollowLinks = true
+  noreferrerLinks = true
+
+[Permalinks]
+  posts = "/:year/:filename"
+
+[menu]
+  [[menu.main]]
+    name = "About Me"
+    url = "/about"
+    weight = 4
+
+[params]
+  since = 2019
+  author = "Roberto C"
+
+  avatar = "/images/myAvatar.svg"
+  socialShare = true
+
+[params.social]
+  GitHub = "yamishi13"
+  Gitlab = "yamishi"
+  Twitter = "yamishi13"
+  Linkedin = "roberto-carlos-martínez-arriaga-84b77b51"
+  Email = "me@robertoc.tech"
+
+[author]
+  name = "Roberto C"
+
+  [params.publisher]
+    name = "Roberto C"
